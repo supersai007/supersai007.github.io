@@ -1,7 +1,152 @@
-<!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+  <style>
+    body {
+      background-color: #c0c0c0;
+      font-family: "Lato", sans-serif; }
+    
+    #main {
+      max-width: 800px;
+      margin: 0 auto; }
+    
+    #pic {
+      float: left;
+      margin: 0 1em 0 0; }
+    
+    #paperpic {
+      float: left;
+      margin: 0 1em 0 0;
+      width: 150px; }
+    
+    .section {
+      float: left;
+      background-color: white;
+      margin: 1em;
+      width: 100%; }
+    
+    .footer {
+      background-color: #c0c0c0;
+      margin: 1em;
+      text-align: right; }
+    
+    .text {
+      float: left;
+      width: 520px; }
+    
+    a {
+      text-decoration: none; }
+    
+    a:hover {
+      text-decoration: underline; }
+    
+    #paper p {
+      margin: 0.3em 0; }
+    
+    #paper h3 {
+      padding-top: 1em;
+      margin: 0;
+      font-size: 110%; }
+    
+    #paper #links {
+      word-spacing: 1.5em; }
+    
+    h2 {
+      margin-left: 1em; }
+  </style>
+  <head>
+    <title>Jon Long</title>
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='test/css'>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-56790085-1', 'auto');
+      ga('send', 'pageview');
+    </script>
+  </head>
+  <body>
+    <div id='main'>
+      <div class='section'>
+        <img id='pic' src='head.jpg'>
+        <div class='text'>
+          <p><strong>Jonathan Long</strong></p>
+          
+          <p>I am a <strong>PhD candidate</strong> at <strong>UC Berkeley</strong>, working on <strong>computer
+          vision</strong> and advised by <strong>Trevor Darrell</strong>.</p>
+          
+          <p>Before 2010, I was at Carnegie Mellon, studying Computer Science,
+          Physics, and Mathematics.</p>
+          
+          <p>I care about recognition: algorithms that learn to decode perceptual
+          input into useful information.</p>
+          
+          <p>I obsess about having the most powerful tools for research and 
+          engineering; I&#39;m a developer of
+          <a href="http://caffe.berkeleyvision.org">Caffe</a>.</p>
+          <p>
+            <a href='mailto:jonlong@cs.berkeley.edu'>jonlong@cs.berkeley.edu</a>
+          </p>
+          <p>
+            @longjon on
+            <a href='http://github.com/longjon'>GitHub</a>
+          </p>
+        </div>
+      </div>
+      <div class='section'>
+        <div id='paper'>
+          <img id='paperpic' src='fcn.png'>
+          <h3>
+            <a href='long_shelhamer_fcn.pdf'>
+              Fully Convolutional Networks for Semantic Segmentation
+            </a>
+          </h3>
+          <p>
+            Jon Long*, Evan Shelhamer*, Trevor Darrell (CVPR 2015 <em>best paper honorable mention</em>)<br>
+            *equal contribution
+          </p>
+          <p>
+            <em>
+              Fully convolutional networks by themselves, trained end-to-end on
+              segmentation data, initialized from recent classification models,
+              and with extra links between nonconsecutive layers,
+              improve semantic segmentation on PASCAL by 20% relative.
+            </em>
+          </p>
+          <p id='links'>
+            <a href='long_shelhamer_fcn.pdf'>pdf</a>
+            <a href='long_shelhamer_fcn.bib'>bibtex</a>
+            <a href='http://arxiv.org/abs/1411.4038'>arxiv</a>
+            <a href='fcn_poster.pdf'>poster</a>
+            <a href='https://docs.google.com/presentation/d/1VeWFMpZ8XN7OC3URZP4WdXvOGYckoFWGVN7hApoXVnc'>slides</a>
+            <a href='https://github.com/BVLC/caffe/wiki/Model-Zoo#fcn'>models</a>
+          </p>
+        </div>
+      </div>
+      <div class='section'>
+        <div id='paper'>
+          <img id='paperpic' src='nips14.jpg'>
+          <h3>
+            <a href='long_nips14.pdf'>Do Convnets Learn Correspondence?</a>
+          </h3>
+          <p>Jon Long, Ning Zhang, Trevor Darrell (NIPS 2014)</p>
+          <p>
+            <em>
+              Max-pooling convolutional networks trained on classification perform
+              surprisingly well at fine-scale tasks like alignment and keypoint
+              prediction.
+            </em>
+          </p>
+          <p id='links'>
+            <a href='long_nips14.pdf'>pdf</a>
+            <a href='long_nips14.bib'>bibtex</a>
+            <a href='http://arxiv.org/abs/1411.1091'>arxiv</a>
+            <a href='long_nips14_poster.pdf'>poster</a>
+          </p>
+        </div>
+      </div>
+      <div class='footer'>
+        <a href='index.haml'>source code</a>
+      </div>
+    </div>
+  </body>
 </html>
