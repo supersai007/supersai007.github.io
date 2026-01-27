@@ -1,14 +1,12 @@
 github_users:
-  - torvalds
+  - supersai007
   - alshedivat
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - supersai007/ros2_nav2_rgbd
+  - supersai007/LLaVA-NeXT
+  - supersai007/JobPuzzles
+  - supersai007/actloc_benchmark
+  - supersai007/awesome-object-proposals
