@@ -17,12 +17,4 @@ profiles:
       <p>Knowledge Systems Lab</p>
       <p>Computer Science</p>
       <p>Stony Brook University, NY 11794</p>
-  - align: left
-    image: prof_pic.jpg
-    content: about_einstein.md
-    image_circular: false # crops the image to make it circular
-    more_info: >
-      <p>Knowledge Systems Lab</p>
-      <p>Computer Science</p>
-      <p>Stony Brook University, NY 11794</p>
 ---
