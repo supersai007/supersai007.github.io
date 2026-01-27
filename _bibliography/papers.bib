@@ -1,115 +1,87 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@inproceedings{10.1145/3293353.3293383,
+author = {SaiRam, K. and Mukherjee, Jayanta and Patra, Amit and Das, Partha Pratim},
+title = {HSD-CNN: Hierarchically self decomposing CNN architecture using class specific filter sensitivity analysis},
+year = {2020},
+isbn = {9781450366151},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3293353.3293383},
+doi = {10.1145/3293353.3293383},
+abstract = {Conventional convolutional neural networks (CNN) are trained on large domain datasets and are hence typically over-represented and inefficient in limited class applications. An efficient way to convert such large many-class pre-trained networks into small few-class networks is through a hierarchical decomposition of its feature maps. To alleviate this issue, we propose an automated framework for such decomposition in Hierarchically Self Decomposing CNN (HSD-CNN), in four steps. HSD-CNN is derived automatically using a class-specific filter sensitivity analysis that quantifies the impact of specific features on a class prediction. The decomposed hierarchical network can be utilized and deployed directly to obtain sub-networks for a subset of classes, and it is shown to perform better without the requirement of retraining these sub-networks. Experimental results show that HSD-CNN generally does not degrade accuracy if the full set of classes is used. Interestingly, when operating on known subsets of classes, HSD-CNN has an improvement in accuracy with a much smaller model size requiring much fewer operations. HSD-CNN flow is verified on the CIFAR10, CIFAR100 and CALTECH101 datasets. We report accuracies up to 85.6\% (94.75\%) on scenarios with 13 (4) classes of CIFAR100, using a pre-trained VGG-16 network on the full dataset. In this case, the proposed HSD-CNN requires 3.97x fewer parameters and has 71.22\% savings in operations, in comparison to baseline VGG-16 containing features for all 100 classes.},
+booktitle = {Proceedings of the 11th Indian Conference on Computer Vision, Graphics and Image Processing},
+articleno = {30},
+numpages = {9},
+keywords = {CNN, classification, clustering, hierarchical, model transfer, neural networks, sub-networks},
+location = {Hyderabad, India},
+series = {ICVGIP '18}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@INPROCEEDINGS{8803547,
+  author={Saha, Avinab and Ram, K. Sai and Mukhopadhyay, Jayanta and Das, Partha Pratim and Patra, Amit},
+  booktitle={2019 IEEE International Conference on Image Processing (ICIP)}, 
+  title={Fitness Based Layer Rank Selection Algorithm for Accelerating Cnns by Candecomp/Parafac (CP) Decompositions}, 
+  year={2019},
+  volume={},
+  number={},
+  pages={3402-3406},
+  abstract={We present the Fitness Based Layer Rank Selection (FLRS) Algorithm for Accelerating Convolutional Neural Networks by CANDECOMP/PARAFAC (CP) Decompositions. FLRS selects the layers and corresponding ranks based on a parameter fitness factor. The advantage of the proposed FLRS algorithm is that it does not require retraining iteratively during rank selection. The experimental results show that VGG-16 Network can be replaced by an approximate network where the convolutional layers are replaced by a sequence of four convolutional layers with smaller kernels. The approximated network has less than one-fifth of the original model parameters and performs less than one-fifth of the total number of computations as compared to the original model with an accuracy drop of less than 1% across SVHN, CIFAR-10 and CALTECH-101 datasets.},
+  keywords={Approximation algorithms;Training;Computational modeling;Acceleration;Computer architecture;Convolutional neural networks;CP Decompositions;FLRS;Accelerating CNNs;Rank Selection;Compression},
+  doi={10.1109/ICIP.2019.8803547},
+  ISSN={2381-8549},
+  month={Sep.},}
+
+@INPROCEEDINGS{8451594,
+  author={Saha, Bhaswati and Sai Ram, K. and Mukhopadhyay, Jayanta and Roy, Aditi and Navelkar, Anchit},
+  booktitle={2018 25th IEEE International Conference on Image Processing (ICIP)}, 
+  title={Video Based Person Re-Identification by Re-Ranking Attentive Temporal Information in Deep Recurrent Convolutional Networks}, 
+  year={2018},
+  volume={},
+  number={},
+  pages={1663-1667},
+  abstract={Person Re-identification (Person re-id) is a crucial task as its application in visual surveillance and human-computer interaction is increasing day-by-day. In this work, we present a deep learning approach for video based person re-id problem. We use residual network (ResNet) along with LSTM for feature extraction. The extracted feature is passed through an attentive temporal pooling layer, which enables the feature extractor to be aware of the current input video sequences. In this way, inter dependency between two images can directly influence the computation of each other's feature representation. At last, we re-rank the result using k-reciprocal encoding method to mitigate the effect of false matching. Experiments conducted on iLIDS-VID and PRID 2011 datasets confirm that our model outperforms existing state-of-the-art video-based re-id methods.},
+  keywords={Feature extraction;Cameras;Probes;Video sequences;Task analysis;Adaptation models;Machine learning;Person re-id;ResNet;Attentive temporal pooling;k-reciprocal nearest neighbor;re-ranking},
+  doi={10.1109/ICIP.2018.8451594},
+  ISSN={2381-8549},
+  month={Oct},}
+
+@misc{bradbury2025deterministiccontinuousreplacementfast,
+      title={Deterministic Continuous Replacement: Fast and Stable Module Replacement in Pretrained Transformers}, 
+      author={Rowan Bradbury and Aniket Srinivasan Ashok and Sai Ram Kasanagottu and Gunmay Jhingran and Shuai Meng},
+      year={2025},
+      eprint={2511.18670},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2511.18670}, 
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@INPROCEEDINGS{8451369,
+  author={Mukhopadhyay, Jayanta and Sairam, K.},
+  booktitle={2018 25th IEEE International Conference on Image Processing (ICIP)}, 
+  title={Nonseparable Filters for Images in the Block DCT Domain}, 
+  year={2018},
+  volume={},
+  number={},
+  pages={1493-1497},
+  abstract={Filtering of images is required in various applications of image processing. Previously a few algorithms have been reported for filtering of images in the block discrete cosine transform (DCT) domain given its 2D finite impulse response (FIR). However, they assume that the response should be separable along rows and columns. In this paper, we propose a novel technique for implementing a non-separable 2D FIR filter in the block DCT domain. In this approach, we decompose a nonseparable 2D arbitrary FIR into a set of 2D separable arbitrary FIRs, and apply the computation of separable filters in the DCT domain. We have further used the sparsity of the DCT blocks and ranking of separable components in representing the nonseparable filter to reduce the computational cost allowing a graceful degradation of the quality of the filtered output.},
+  keywords={Discrete cosine transforms;Finite impulse response filters;Two dimensional displays;Computational efficiency;Convolution;Matrix decomposition;Compressed Domain Processing;Discrete Cosine Transform (DCT);Discrete Sine Transform (DST);Convolution Multiplication Property;Non-separable 2D FIR},
+  doi={10.1109/ICIP.2018.8451369},
+  ISSN={2381-8549},
+  month={Oct},}
+
+@patent{wajahat2021method,
+  author     = {Wajahat Qadeer, Rehan Hameed, Satyanarayana Raju Uppalapati, Abhilash Bharath Ghanore, Kasanagottu Sai Ram},
+  title      = {METHOD FOR AUTOMATIC HYBRID QUANTIZATION OF DEEP ARTIFICIAL NEURAL NETWORKS},
+  year       = {2021},
+  month      = {June},
+  day        = {10},
+  number     = {US11763158B2},
+  type       = {Patent},
+  nationality= {United States},
+  assignee   = {Kinara Inc},
+  url        = {https://patents.google.com/patent/US11763158B2/en}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
 }
