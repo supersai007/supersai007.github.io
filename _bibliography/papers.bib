@@ -11,17 +11,9 @@
   url={https://arxiv.org/abs/2511.18670},
   pdf={https://arxiv.org/pdf/2511.18670.pdf},
   bibtex_show={true},
-  abstract={Replacing modules in pretrained models—especially swapping quadratic self-
-attention for efficient attention alternatives—poses a hard optimization problem:
-cold-start reinitialization destabilizes frozen backbones. We isolate this core sta-
-bility challenge in a controlled study. Deterministic Continuous Replacement
-(DCR) blends teacher and student outputs with a deterministic, annealed weight
-α(t). Theoretically, DCR eliminates gate-induced gradient variance inherent to
-stochastic replacement (Sec. 3.2). In a single-seed study, DCR attains faster con-
-vergence and stronger alignment than stochastic gating and distillation baselines
-on controlled attention replacement, establishing a foundation for heterogeneous
-operator swaps.},
-  selected={true}
+  abstract={Replacing modules in pretrained models—especially swapping quadratic self-attention for efficient attention alternatives—poses a hard optimization problem: cold-start reinitialization destabilizes frozen backbones. We isolate this core stability challenge in a controlled study. Deterministic Continuous Replacement (DCR) blends teacher and student outputs with a deterministic, annealed weight α(t). Theoretically, DCR eliminates gate-induced gradient variance inherent to stochastic replacement (Sec. 3.2). In a single-seed study, DCR attains faster convergence and stronger alignment than stochastic gating and distillation baselines on controlled attention replacement, establishing a foundation for heterogeneous operator swaps.},
+  selected={true},
+  abbr={NeurIPS Workshop}
 }
 
 @inproceedings{saha2019fitness,
@@ -31,7 +23,13 @@ operator swaps.},
   year={2019},
   organization={IEEE},
   bibtex_show={true},
-  selected={true}
+  selected={true},
+  abbr={ICIP},
+  doi={10.1109/ICIP.2019.8803547},  
+  url={https://ieeexplore.ieee.org/document/8803547},
+  pdf={https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8803547},
+  abstract={We present the Fitness Based Layer Rank Selection (FLRS) Algorithm for Accelerating Convolutional Neural Networks by CANDECOMP/PARAFAC (CP) Decompositions. FLRS selects the layers and corresponding ranks based on a parameter fitness factor. The advantage of the proposed FLRS algorithm is that it does not require retraining iteratively during rank selection. The experimental results show that VGG-16 Network can be replaced by an approximate network where the convolutional layers are replaced by a sequence of four convolutional layers with smaller kernels. The approximated network has less than one-fifth of the original model parameters and performs less than one-fifth of the total number of computations as compared to the original model with an accuracy drop of less than 1% across SVHN, CIFAR-10 and CALTECH-101 datasets.},
+  preview={saha2019fitness.gif}
 }
 
 @inproceedings{sairam2018hsd,
@@ -41,7 +39,13 @@ operator swaps.},
   year={2018},
   organization={ACM},
   bibtex_show={true},
-  selected={true}
+  selected={true},
+  abbr={ICVGIP},
+  doi={10.1145/3293353.3293383},
+  url={https://dl.acm.org/doi/10.1145/3293353.3293383},
+  pdf={https://arxiv.org/pdf/1811.04406},
+  abstract={Conventional Convolutional neural networks (CNN) are trained on large domain datasets and are hence typically over-represented and inefficient in limited class applications. An efficient way to convert such large many-class pre-trained networks into small few-class networks is through a hierarchical decomposition of its feature maps. To alleviate this issue, we propose an automated framework for such decomposition in Hierarchically Self Decomposing CNN (HSD-CNN), in four steps. HSD-CNN is derived automatically using a class-specific filter sensitivity analysis that quantifies the impact of specific features on a class prediction. The decomposed hierarchical network can be utilized and deployed directly to obtain sub-networks for a subset of classes, and it is shown to perform better without the requirement of retraining these sub-networks. Experimental results show that HSD-CNN generally does not degrade accuracy if the full set of classes are used. Interestingly, when operating on known subsets of classes, HSD-CNN has an improvement in accuracy with a much smaller model size, requiring much fewer operations. HSD-CNN flow is verified on the CIFAR10, CIFAR100 and CALTECH101 data sets. We report accuracies up to 85.6% ( 94.75% ) on scenarios with 13 ( 4 ) classes of CIFAR100, using a pre-trained VGG-16 network on the full data set. In this case, the proposed HSD-CNN requires 3.97× fewer parameters and has 71.22% savings in operations, in comparison to baseline VGG-16 containing features for all 100 classes.},
+  preview={sairam2018hsd.png}
 }
 
 @inproceedings{saha2018video,
@@ -50,7 +54,12 @@ operator swaps.},
   booktitle={2018 25th IEEE International Conference on Image Processing (ICIP)},
   year={2018},
   bibtex_show={true},
-  organization={IEEE}
+  organization={IEEE},
+  abbr={ICIP},
+  pdf={https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8451594},
+  abstract={Person Re-identification (Person re-id) is a crucial task as its application in visual surveillance and human-computer interaction is increasing day-by-day. In this work, we present a deep learning approach for video based person re-id problem. We use residual network (ResNet) along with LSTM for feature extraction. The extracted feature is passed through an attentive temporal pooling layer, which enables the feature extractor to be aware of the current input video sequences. In this way, inter dependency between two images can directly influence the computation of each other's feature representation. At last, we re-rank the result using k-reciprocal encoding method to mitigate the effect of false matching. Experiments conducted on iLIDS-VID and PRID 2011 datasets confirm that our model outperforms existing state-of-the-art video-based re-id methods.},
+  doi={10.1109/ICIP.2018.8451594},
+  preview={saha2018video.gif}
 }
 
 @inproceedings{mukhopadhyay2018nonseparable,
@@ -59,5 +68,10 @@ operator swaps.},
   booktitle={2018 25th IEEE International Conference on Image Processing (ICIP)},
   year={2018},
   bibtex_show={true},
-  organization={IEEE}
+  organization={IEEE},
+  abbr={ICIP},
+  abstract={Filtering of images is required in various applications of image processing. Previously a few algorithms have been reported for filtering of images in the block discrete cosine transform (DCT) domain given its 2D finite impulse response (FIR). However, they assume that the response should be separable along rows and columns. In this paper, we propose a novel technique for implementing a non-separable 2D FIR filter in the block DCT domain. In this approach, we decompose a nonseparable 2D arbitrary FIR into a set of 2D separable arbitrary FIRs, and apply the computation of separable filters in the DCT domain. We have further used the sparsity of the DCT blocks and ranking of separable components in representing the nonseparable filter to reduce the computational cost allowing a graceful degradation of the quality of the filtered output.},
+  pdf={https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8451369},
+  doi={10.1109/ICIP.2018.8451369},
+  preview={mukhopadhyay2018nonseparable.gif}
 }
