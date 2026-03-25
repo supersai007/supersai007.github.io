@@ -2,33 +2,31 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'> PhD Student</a>. Computer Science, Stony Brook University. # Contacts. Motto. Etc.
+subtitle: PhD Student in Computer Science at Stony Brook University
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: false
   more_info: >
     <p>Knowledge Systems Lab</p>
-    <p>Computer Science</p>
-    <p>Stony Brook University, NY 11794</p>
+    <p>Stony Brook University</p>
+    <p>Stony Brook, NY 11794</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: true
+  limit: 5
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi! I am Sai Ram Kasanagottu, a Ph.D. student in Computer Science at [Stony Brook University](https://www.stonybrook.edu/), working in the Knowledge Systems & IRSL Lab. My research focuses on autonomous navigation, robotic manipulation, and deep learning.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Prior to beginning my PhD, I gathered extensive industry experience working at the intersections of computer vision, NLP, and machine learning. I served as a Technical Lead Engineer at Saama Technologies and as a Lead Machine Learning Engineer at DisplaySweet in Australia. Additionally, I acquired my Master's at the Indian Institute of Technology (IIT) Kharagpur, focusing on reusable and compact deep CNN models.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I'm particularly interested in enhancing autonomous intelligence for embodied agents, spatial analysis, and robotics. Check my CV above for a more complete picture of my work experience and publications!

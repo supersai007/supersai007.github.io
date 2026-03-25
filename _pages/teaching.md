@@ -2,11 +2,20 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: A record of my teaching assistantships and instructional responsibilities.
 nav: true
 nav_order: 6
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+Here is a list of courses I have served as a Teaching Assistant for:
 
-Organize your courses by years, topics, or universities, however you like!
+### Stony Brook University
+
+- **Foundations of Computer Science** (Fall 2024, Spring 2025)
+
+### Indian Institute of Technology (IIT) Kharagpur
+
+- **Advanced Image Processing and Computer Vision** (Spring 2018)
+- **Digital Image Processing** (Fall 2015, Spring 2017)
+- **Programming and Data Structures** (Fall 2016)
+- **Computer Graphics and Laboratory** (Spring 2016)
