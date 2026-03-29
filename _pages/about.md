@@ -13,12 +13,12 @@ profile:
     <p>Stony Brook University</p>
     <p>Stony Brook, NY 11794</p>
 
-selected_papers: false
+selected_papers: true
 social: true
 
 announcements:
-  enabled: true
-  scrollable: true
+  enabled: false
+  scrollable: false
   limit: 5
 
 latest_posts:
