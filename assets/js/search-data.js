@@ -66,8 +66,8 @@ ninja.data = [{
           window.open("https://scholar.google.com/citations?user=QSvIGQsAAAAJ", "_blank");
         },
       },{
-        id: 'social-work',
-        title: 'Work',
+        id: 'social-faangdeck',
+        title: 'FaangDeck',
         section: 'Socials',
         handler: () => {
           window.open("https://faangdeck.com", "_blank");
